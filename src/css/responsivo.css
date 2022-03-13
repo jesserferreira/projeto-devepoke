@@ -58,4 +58,11 @@
     .cartoes-pokemon .cartao-pokemon .cartao-informacoes .status li, .cartoes-pokemon .cartao-pokemon .cartao-informacoes .habilidades li {
         font-size: 11px;
     }
+
+    footer img {
+        width: 30px;
+        height: 30px;
+        margin-top: 0;
+        padding-top: 0;
+    }
 }
