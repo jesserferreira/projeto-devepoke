@@ -6,7 +6,7 @@ body {
 
 main {
     background-color: #353535;
-    min-height: 95vh;
+    min-height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,7 +19,7 @@ main {
 }
 
 footer, a {
-    min-height: 5vh;
+    min-height: 10vh;
     text-align: center;
     color: #FFFFFF;
     background-color: #353535;
@@ -33,4 +33,21 @@ a {
 a:hover {
     color: rgb(223, 2, 252);
     text-decoration: underline;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+footer .signature {
+    font-weight: 100;
+    font-size: 10px;
+}
+
+footer .devdobro {
+    font-weight: 100;
+    font-size: 8px;
 }
