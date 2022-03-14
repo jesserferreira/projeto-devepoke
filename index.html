@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8"> <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/global.css">
@@ -21,7 +22,7 @@
         <div class="pokedex">
             <div class="cartoes-pokemon">
 
-                <div class="cartao-pokemon aberto tipo-eletrico">
+                <div class="cartao-pokemon aberto tipo-eletrico" id="cartao-pikachu">
                     <div class="cartao-topo">
                         <div class="detalhes">
                             <h2 class="nome">Pikachu</h2>
@@ -59,7 +60,7 @@
                     </div>
                 </div>
 
-                <div class="cartao-pokemon tipo-grama">
+                <div class="cartao-pokemon tipo-grama" id="cartao-bulbasaur">
                     <div class="cartao-topo">
                         <div class="detalhes">
                             <h2 class="nome">Bulbasaur</h2>
@@ -98,7 +99,7 @@
                     </div>
                 </div>
 
-                <div class="cartao-pokemon tipo-fogo">
+                <div class="cartao-pokemon tipo-fogo" id="cartao-charmander">
                     <div class="cartao-topo">
                         <div class="detalhes">
                             <h2 class="nome">Charmander</h2>
@@ -136,7 +137,7 @@
                     </div>
                 </div>
 
-                <div class="cartao-pokemon tipo-agua">
+                <div class="cartao-pokemon tipo-agua" id="cartao-gyaradus">
                     <div class="cartao-topo">
                         <div class="detalhes">
                             <h2 class="nome">Gyaradus</h2>
@@ -174,7 +175,7 @@
                     </div>
                 </div>
 
-                <div class="cartao-pokemon tipo-trevas">
+                <div class="cartao-pokemon tipo-trevas" id="cartao-gengar">
                     <div class="cartao-topo">
                         <div class="detalhes">
                             <h2 class="nome">Gengar</h2>
@@ -212,7 +213,7 @@
                     </div>
                 </div>
 
-                <div class="cartao-pokemon tipo-dragao">
+                <div class="cartao-pokemon tipo-dragao" id="cartao-dragonite">
                     <div class="cartao-topo">
                         <div class="detalhes">
                             <h2 class="nome">Dragonite</h2>
@@ -254,27 +255,27 @@
 
             <nav class="listagem">
                 <ul>
-                    <li class="pokemon ativo">
+                    <li class="pokemon ativo" id="pikachu">
                         <img src="src/imagens/cabeca-pikachu.png" alt="Pikachu">
                         <span>Pikachu</span>
                     </li>
-                    <li class="pokemon">
+                    <li class="pokemon" id="bulbasaur">
                         <img src="src/imagens/cabeca-bulbasaur.png" alt="Bulbasaur">
                         <span>Bulbasaur</span>
                     </li>
-                    <li class="pokemon">
+                    <li class="pokemon" id="charmander">
                         <img src="src/imagens/cabeca-charmander.png" alt="Charmander">
                         <span>Charmander</span>
                     </li>
-                    <li class="pokemon">
+                    <li class="pokemon" id="gyaradus">
                         <img src="src/imagens/cabeca-gyarados.png" alt="Gyaradus">
                         <span>Gyaradus</span>
                     </li>
-                    <li class="pokemon">
+                    <li class="pokemon" id="gengar">
                         <img src="src/imagens/cabeca-gengar.png" alt="Gengar">
                         <span>Gengar</span>
                     </li>
-                    <li class="pokemon">
+                    <li class="pokemon" id="dragonite">
                         <img src="src/imagens/cabeca-dragonite.png" alt="Dragonite">
                         <span>Dragonite</span>
                     </li>
@@ -288,5 +289,7 @@
         <p class="signature">©️Copyright Jesser Ferreira</p>
         <p class="devdobro">Site replicado de <a href="https://www.youtube.com/channel/UCGXiaSPSmORM_4_b05kfMlg" target="_blank">DevEmDobro</a></p>
     </footer>
+
+    <script src="src/js/index.js"></script>
 </body>
 </html>
