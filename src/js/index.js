@@ -8,7 +8,9 @@ listaSelecaoPokemons.forEach(pokemon => {
 
         const idPokemonSelecionado = pokemon.attributes.id.value
         const idCartaoSelecionado = 'cartao-' + idPokemonSelecionado
+        
         const cartaoPokemonParaAbrir = document.getElementById(idCartaoSelecionado)
+        
         cartaoPokemonParaAbrir.classList.add('aberto')
 
         const pokemonAtivoNaListagem = document.querySelector('.ativo')
