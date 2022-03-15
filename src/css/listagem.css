@@ -1,13 +1,13 @@
 @charset "UTF-8";
 
 .listagem {
-    max-width: 300px;
+    max-width: 250px;
 }
 
 .listagem .pokemon {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 15px;
     background-color: #6B727A;
     color: #FFFFFF;
@@ -29,7 +29,7 @@
 }
 
 .listagem .pokemon img {
-    width: 25%;
+    width: 20%;
     border-radius: 50%;
 }
 
