@@ -38,5 +38,47 @@
 }
 
 .listagem .pokemon.ativo {
-    background-color: #66fa7fb6;
+    background-color: #00ff2a86;
+}
+
+#pikachu:hover {
+    background-color: rgb(243, 245, 124);
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+}
+
+#bulbasaur:hover {
+    background-color: rgb(124, 245, 124);
+    color: black;
+    font-weight: 800;
+}
+
+#squirtle:hover {
+    background-color: rgb(124, 217, 245);
+    color: black;
+    font-weight: 800;
+}
+
+#charmander:hover {
+    background-color: rgb(245, 124, 124);
+    color: black;
+    font-weight: 800;
+}
+
+#gyaradus:hover {
+    background-color: rgb(47, 125, 243);
+    color: black;
+    font-weight: 800;
+}
+
+#gengar:hover {
+    background-color: rgb(244, 110, 248);
+    color: black;
+    font-weight: 800;
+}
+
+#dragonite:hover {
+    background-color: rgb(248, 188, 110);
+    color: black;
+    font-weight: 800;
 }
